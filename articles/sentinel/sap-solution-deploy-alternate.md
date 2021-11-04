@@ -172,6 +172,7 @@ We recommend that you perform this procedure after you have a key vault ready wi
 
     ```bash
     ##############################################################
+    # Use only this section with env based password auth
     ##############################################################
     # env.list template for Credentials
     SAPADMUSER=<SET_SAPCONTROL_USER>
@@ -181,9 +182,11 @@ We recommend that you perform this procedure after you have a key vault ready wi
     JAVAUSER=<SET_JAVA_OS_USER>
     JAVAPASS=<SET_JAVA_OS_USER>
     ##############################################################
+    # use only this section for service principal based authentication to keyvault 
     ##############################################################
     # env.list template for AZ Cli when MI is not enabled
     AZURE_TENANT_ID=<your tenant id>
+    AZURE_CLIENT_SECRET=<Client Secret>
     AZURE_CLIENT_ID=<your client/app id>
     ##############################################################
     ```

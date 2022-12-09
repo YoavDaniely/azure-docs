@@ -54,6 +54,9 @@ To successfully deploy the Microsoft Sentinel Solution for SAP, you must meet th
 | **Software utilities** | The [SAP data connector deployment script](reference-kickstart.md) installs the following required software on the container host VM (depending on the Linux distribution used, the list may vary slightly): <br>- [Unzip](http://infozip.sourceforge.net/UnZip.html)<br>- [NetCat](https://sectools.org/tool/netcat/)<br>- [Docker](https://www.docker.com/)<br>- [jq](https://stedolan.github.io/jq/)<br>- [curl](https://curl.se/)<br><br>
 
 ### SAP prerequisites
+> [!NOTE]
+>
+> Note: for everything related to SAP’s licenses, terms and conditions please contact your SAP representative.
 
 | Prerequisite | Description |
 | ---- | ----------- |
